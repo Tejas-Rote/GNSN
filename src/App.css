@@ -1,0 +1,186 @@
+
+@font-face {
+  font-family: 'Otto Attac Type';
+  src: url('./fonts/OTTOATTACTYPE.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poison';
+  src: url('./fonts/Poison-Regular.ttf') format('truetype');
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav.main-nav a{
+  color: #000000;
+text-decoration: none; 
+      }
+
+.heading{
+  position: relative;
+  width: 248px;
+  height: 70px;
+  top: 10px;
+  left: 400px;
+  text-decoration: none;
+
+  font-family: 'Otto Attac Type';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100px;
+
+  /* text-align: center; */
+
+  color: #000000;
+
+}
+
+.Services
+{
+color: #000000;
+text-transform: uppercase;
+text-decoration: none;
+position: absolute;
+width: 164px;
+height: 48px;
+left: 970px;
+top: 36px;
+
+font-family: 'Poison';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 48px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}
+
+
+.Shop{
+position: absolute;
+width: 101px;
+height: 48px;
+left: 1174px;
+top: 36px;
+
+font-family: 'Poison';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 48px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+
+
+.container_1 {
+  display: flex;
+  position: relative;
+  width: 248px;
+  height: 70px;
+  padding-left: 60px; 
+  top: 10px;
+
+}
+
+.container_2{
+  left: 734px;
+  top: 25px;
+  position: relative;
+  padding-left: 50px;
+}
+.container_3{
+  left: 812px;
+  top: 25px;
+  position: relative;
+}
+.icon_2{
+  position: relative;
+  color: #292D32;
+}
+
+.icon_1
+{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  color: #292D32;
+}
+
+.icon {
+  position: relative;
+  left: 40px;
+  width: 100px;
+  height: 100px;
+  color: #292D32;
+  padding-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  left: 310px;
+
+}
+
+.message{
+position: absolute;
+width: 754px;
+height: 192px;
+left: 400px;
+top: 310px;
+
+font-family: 'Poison';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #212121;
+}
+
+.message_1{
+
+position: absolute;
+width: 541.46px;
+height: 48px;
+left: 540px;
+top: 600px;
+
+font-family: 'Poison';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 48px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+padding-left: 73px;
+
+color: #1E2022;
+
+box-sizing: border-box;
+border: 2px solid #1E2022;
+
+}
