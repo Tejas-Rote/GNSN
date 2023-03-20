@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      Hello
+
       <HomePage />
       {/* <nav class="main-nav">
         <div class="container_1">

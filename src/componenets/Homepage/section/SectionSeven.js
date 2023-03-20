@@ -1,7 +1,7 @@
 // import React from 'react';
 import * as React from 'react';
 // import fImage from "../componenet/images/feedback.jpg"
-import image from "./feedback.jpg"
+import news from "./newsletter.jpg"
 
 
 
@@ -37,14 +37,14 @@ const theme = createTheme({
 
 
 
-const SectionSix = () => {
+const SectionSeven = () => {
     return (
 
 
         <ThemeProvider theme={theme}>
             <Box
                 style={{
-                    backgroundImage: `url(${image})`,
+                    backgroundImage: `url(${news})`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                     display: 'flex',
@@ -76,7 +76,7 @@ const SectionSix = () => {
                                     textAlign: 'center',
                                     color: theme.palette.primary.main,
                                 }}>
-                                YOUR FEEDBACK
+                                JOIN OUR
 
                             </Typography>
                             <Typography
@@ -88,7 +88,7 @@ const SectionSix = () => {
                                     color: theme.palette.primary.main,
                                 }}>
 
-                                HELP US IMPROVE
+                                NEWSLETTER
                             </Typography>
 
                         </Box>
@@ -107,7 +107,7 @@ const SectionSix = () => {
                             <Button
                                 variant="text"
                                 style={{
-                                    width: "416px",
+                                    width: "231px",
                                     height: "48px"
                                 }}>
                                 <Typography
@@ -119,7 +119,7 @@ const SectionSix = () => {
                                         color: theme.palette.primary.main,
                                     }}>
 
-                                    GIVE SUGGESTION
+                                    JOIN NOW
                                 </Typography></Button>
                         </Box>
                     </Stack>
@@ -129,4 +129,4 @@ const SectionSix = () => {
     )
 }
 
-export default SectionSix
+export default SectionSeven
