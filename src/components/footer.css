@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Poison';
+    src: url('../fonts/Poison-Regular.ttf') format('truetype');
+  }
+
+
+
+
+* {
+    font-family: 'Poison';
+    color: black;
+}
+
+.main-footer {
+    display: flex;
+    margin-left: 8rem;
+    padding: 6rem 2rem;
+    margin-top: 8rem;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.col {
+    line-height: 2em;
+    list-style-type: none;
+    padding-right: 12rem;
+}
+
+.row {
+    display: flex;
+    justify-content:right;
+    padding-right: 20rem;
+    
+}
+
+.content-wrap {
+    flex: 1;
+}
+
+.hr {
+    color: black;
+}
