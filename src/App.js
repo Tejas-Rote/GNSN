@@ -3,6 +3,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 // import section6 from "./componenets/Homepage/Section6/section6";
 // import homePage from "./componenets/HomePage/homePage";
 import HomePage from "./componenets/Homepage/HomePage"
+import Footer from "./components/Footer";
 
 import './App.css';
 
@@ -55,6 +56,7 @@ function App() {
 
       {/* <section6 /> */}
 
+      <Footer />
     </div>
 
 
