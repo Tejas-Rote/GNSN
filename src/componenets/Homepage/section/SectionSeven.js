@@ -1,14 +1,12 @@
-// import React from 'react';
 import * as React from 'react';
-// import fImage from "../componenet/images/feedback.jpg"
 import news from "./newsletter.jpg"
 
 
 
-import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button'
 import Box from '@mui/material/Box'
-import { Checkbox, Stack, Typography } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 
 
 
